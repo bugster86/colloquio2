@@ -1,0 +1,20 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: builda l'immagine
+      run: docker build . --file Dockerfile --tag colloquio:1.0
+    - name: fai partire un container dei poveri
+      run: docker run -ti --rm --name test colloquio:1.0
