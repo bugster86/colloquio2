@@ -10,3 +10,5 @@ for numero in range(1,101):
 		print ("Viganò")
 	else:
 		print(numero)
+
+print( ":D" )
