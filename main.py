@@ -2,6 +2,7 @@
 # coding=utf-8
 # Autore: Martino Vigana'
 # Versione: 1.0
+# Aggiornamenti
 
 for numero in range(1,101):
 	if  numero%5 ==0 and numero%3 ==0:
