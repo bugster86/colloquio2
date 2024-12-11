@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding=utf-8
-# Autore: Martino Viganò
+# Autore: Martino Vigana'
 # Versione: 1.0
 
 for numero in range(1,101):
