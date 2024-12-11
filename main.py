@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
+# Autore: Martino Viganò
+# Versione: 1.0
 
 for numero in range(1,101):
 	if  numero%5 ==0 and numero%3 ==0:
