@@ -4,7 +4,7 @@
 # Versione: 1.0
 # Aggiornamenti
 
-for numero in range(1,301):
+for numero in range(1,401):
 	if  numero%5 ==0 and numero%3 ==0:
 		print ("Martino Viganò")
 	elif numero%5==0:
